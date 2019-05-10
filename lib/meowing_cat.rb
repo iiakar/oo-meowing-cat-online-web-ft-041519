@@ -1,4 +1,5 @@
-class Dog
+class Cat
+  attr_accessor :name
   
   def name= (name)
     @name = name
@@ -6,9 +7,5 @@ class Dog
   def name
     @name
   end
-  def bark
-    puts "woof!"
-  end
-
-
+  
  end
